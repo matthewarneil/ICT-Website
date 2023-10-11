@@ -1,0 +1,149 @@
+/* NAVIGATION */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+    text-align: center;
+  }
+  
+  .topnav {
+    display: flex;
+    justify-content: space-between;
+    position: sticky; 
+    top: 0; 
+    background-color: black;
+    color: white;
+    padding: 30px;
+    z-index: 100; 
+  }
+  
+  .title {
+    margin: 0;
+    color: #f2f2f2;
+    text-align: left;
+    font-size: 16px; 
+  }
+  
+  .links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+/* FOOTER */
+
+  .footer {
+      position: absolute;
+      left: 20;
+      bottom: 20;
+      width: 100%;
+      background-color: black;
+      color: white;
+      text-align: center;
+}
+
+/* TOP */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.text-container {
+  text-align: left;
+  margin-right: 50px; /* Adjust this value as needed */
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.subheading {
+  font-style: italic;
+  margin-top: 0;
+}
+
+.image {
+  max-width: 50%;
+  height: auto;
+}
+
+/* What we do */
+
+.what-we-do {
+  width: 90%; /* Reduced width to 90% to create space */
+  padding: 50px 5%; /* Added horizontal padding of 5% */
+  margin: auto; /* Added to center the section */
+  text-align: center;
+}
+
+.what-we-do h2 {
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 4px; /* This creates a gap between the boxes */
+}
+
+.service-box {
+  width: 30%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.service-box h3 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.service-box p {
+  font-size: 1em;
+}
+
+/* ----- Action */
+
+
+.action-header {
+  background-color: #ff6347; /* You can change the color */
+  color: #ffffff; /* Adjust text color */
+  padding: 30px;
+  text-align: center;
+}
+
+.action-header h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.action-header p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.action-header button {
+  background-color: #ffffff; /* You can adjust button color */
+  color: #ff6347; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}

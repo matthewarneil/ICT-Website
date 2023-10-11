@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <div class="topnav">
+        <h1 class="title">Hot Beans Web</h1>
+        <div class="links">
+            <a class="active" href="/Users/matthewarneil/Desktop/ICT/home.html">Home</a>
+            <a href="/Users/matthewarneil/Desktop/ICT/about.html">About Us</a>
+            <a href="/Users/matthewarneil/Desktop/ICT/trainee.html">Trainee Developers</a>
+            <a href="/Users/matthewarneil/Desktop/ICT/jobs.html">Jobs</a>
+            <a href="/Users/matthewarneil/Desktop/ICT/application.html">Application</a>
+            <a href="/Users/matthewarneil/Desktop/ICT/courses.html">Courses</a>
+        </div>
+    </div>
+
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: auto;
+      padding-top: 20px;
+    }
+    .border {
+      border: 2px solid black;
+      padding: 20px;
+      border-radius: 5px;
+      margin-bottom: 50px;
+      width: 40%; /* Set to 80% of the container's width */
+    }
+    .textbox, .box {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 6px 12px;
+      border: 1px solid black;
+      margin-bottom: 10px;
+      border-radius: 4px;
+    }
+    .button {
+      background-color: black;
+      color: white;
+      padding: 10px 24px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+    .button:hover {
+      opacity: 1;
+    }
+    .center-input {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+
+<h2 style="text-align: center;">Application Form</h2>
+
+<div class="container">
+  <form action="/submit_application" method="post" enctype="multipart/form-data" class="border">
+    <label for="fname" class="bold">First Name:</label><br>
+    <input type="text" id="fname" name="fname" class="textbox"><br>
+  
+    <label for="lname" class="bold">Last Name:</label><br>
+    <input type="text" id="lname" name="lname" class="textbox"><br>
+  
+    <label for="dob" class="bold">Date of Birth:</label><br>
+    <div class="center-input"><input type="date" id="dob" name="dob" class="box"></div><br>
+  
+    <label for="phone" class="bold">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" class="textbox"><br>
+  
+    <label for="info" class="bold">Information:</label><br>
+    <textarea id="info" name="info" class="textbox"></textarea><br>
+  
+    <label for="cv" class="bold">Upload CV:</label><br>
+    <div class="center-input"><input type="file" id="cv" name="cv" class="box"></div><br><br>
+  
+    <input type="submit" value="Submit Application" class="button">
+  </form> 
+</div>
+
+<header class="action-header">
+  <h1>Ready To Get Rolling?</h1>
+  <p>Register today and experience the benefits of our exclusive services!!</p>
+  <button>Join Today</button>
+</header>
+
+
+</head>
+<body>
+<div class="footer">
+  <p>HOT BEANS WEB | MATTHEW ARNEIL 2023</p>
+</div>
+
+</body>
+</html>
